@@ -1,9 +1,21 @@
+document.getElementById('startButton').addEventListener('click', function(event) {
+  event.preventDefault();
+  const targetElement = document.getElementById('start');
+  targetElement.scrollIntoView({ behavior: 'smooth' });
+});
+
+
+
 const carousel = document.getElementById('carousel');
 const images = [
-  "morning ish.jpeg",
-  "school.jpeg",
-  "new dark.jpeg",
-  "Timeline January - February.png"
+  "sumama.jpeg",
+  "sardar.png",
+  "zubayer.png",
+  "adam.png",
+  "mahidul.png",
+  "faiyaz.png",
+  "samen.png",
+  "jojo.png"
 ];
 const numberOfImages = images.length;
 let currentImageIndex = 0;

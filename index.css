@@ -261,7 +261,7 @@ footer {
     position: relative;
     width: 562px; 
     height: 316px;
-    top: -75%;
+    top: -93%;
     right: 80%;
     z-index: -1; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
@@ -282,13 +282,13 @@ footer {
 }
 
 .layer1 {
-    background-image: url('Infinitum Image yet to be Posted.png');
+    background-image: url('team.jpeg');
     background-size: cover;
     z-index: 1;
 }
 
 .layer2 {
-    background-image: url('Infinitum Image yet to be Posted.png');
+    background-image: url('team.jpeg');
     background-size: cover;
     z-index: 2;
 }
@@ -376,7 +376,7 @@ footer {
 
 .second .text-container {
     top: 40%;
-    left: 29%; 
+    left: 35%; 
     text-align: right;
 }
 
@@ -506,7 +506,7 @@ footer {
     font-family: "Arial", sans-serif; 
     color: #333; 
     position: absolute; 
-    bottom: 90px;
+    bottom: 70px;
     left: 50%; 
     transform: translateX(-50%); 
 }
@@ -615,6 +615,7 @@ footer {
   #image-text-section .image-container img {
     width: 100%;
     height: 100%;
+    opacity: 0.7;
   }
   
   #image-text-section .image-container .text {
@@ -677,7 +678,7 @@ footer {
   
   #carousel-section {
     margin-top: 75px;
-    margin-bottom: 75px;
+    margin-bottom: 2px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -723,6 +724,64 @@ footer {
     opacity: 0.7;
   }
   
+  footer {
+    background-color: #333;
+    color: #FFFFFF;
+    padding: 20px 0;
+    font-size: 16px;
+}
+
+.footer-content {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-nav, .footer-social {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-nav a, .footer-social a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-nav a:hover, .footer-social a:hover {
+    color: #86C232;  
+}
+
+.footer-copyright {
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-branding {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.footer-branding h2 {
+    font-size: 24px;
+    margin-bottom: 50px;
+    color: #ffffff;  
+
+}
+
+.footer-branding p {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin: 0;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
   
 
  
